@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日早报 · 2026年5月11日</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #0a0a0f; color: #e0e0e0; min-height: 100vh; }
+  .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+  .header { text-align: center; padding: 30px 0 20px; }
+  .header .date { color: #6b7280; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+  .header .brand { font-size: 28px; font-weight: 700; background: linear-gradient(135deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .header .tagline { color: #6b7280; font-size: 13px; margin-top: 6px; }
+
+  .hero { margin: 24px 0 32px; border-radius: 16px; overflow: hidden; position: relative; }
+  .hero img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+  .hero-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 40px 30px 24px; background: linear-gradient(transparent, rgba(0,0,0,0.85)); }
+  .hero-badge { display: inline-block; background: #ef4444; color: white; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 20px; margin-bottom: 10px; letter-spacing: 1px; }
+  .hero-title { font-size: 22px; font-weight: 700; color: #fff; line-height: 1.4; margin-bottom: 8px; }
+  .hero-summary { font-size: 14px; color: #d1d5db; line-height: 1.6; }
+  .hero-source { font-size: 12px; color: #9ca3af; margin-top: 8px; }
+
+  .section-label { font-size: 12px; color: #6b7280; letter-spacing: 2px; text-transform: uppercase; margin: 28px 0 14px; padding-left: 12px; border-left: 3px solid #60a5fa; }
+  .section-label.hot { border-left-color: #f97316; }
+
+  .news-card { background: #111118; border-radius: 12px; padding: 18px 20px; margin-bottom: 12px; border: 1px solid #1f1f2e; transition: border-color 0.2s; }
+  .news-card:hover { border-color: #3b3b50; }
+  .news-card.hot { border-left: 3px solid #f97316; }
+  .news-card .card-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
+  .news-card .hot-tag { background: #f97316; color: white; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 10px; white-space: nowrap; margin-top: 2px; }
+  .news-card .source-tag { background: #1f1f2e; color: #9ca3af; font-size: 10px; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+  .news-card h3 { font-size: 16px; font-weight: 600; color: #f3f4f6; line-height: 1.5; flex: 1; }
+  .news-card p { font-size: 13px; color: #9ca3af; line-height: 1.6; margin-bottom: 8px; }
+  .news-card .meta { font-size: 11px; color: #6b7280; }
+  .news-card a { color: #60a5fa; text-decoration: none; }
+  .news-card a:hover { text-decoration: underline; }
+
+  .insight { background: linear-gradient(135deg, #1e3a5f, #1a2a4a); border-radius: 12px; padding: 16px 20px; margin-top: 12px; border: 1px solid #2563eb30; }
+  .insight-label { font-size: 11px; color: #93c5fd; font-weight: 600; margin-bottom: 6px; letter-spacing: 1px; }
+  .insight-text { font-size: 13px; color: #bfdbfe; line-height: 1.7; }
+
+  .footer { text-align: center; padding: 40px 0 30px; color: #4b5563; font-size: 12px; }
+  .footer .divider { width: 60px; height: 1px; background: #2d2d3a; margin: 0 auto 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="date">2026年5月11日 · 周一</div>
+    <div class="brand">ThinkingAI · 每日早报</div>
+    <div class="tagline">AI · 科技 · 游戏 · 商业</div>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <img src="https://hailuo-image-algeng-data.oss-cn-wulanchabu.aliyuncs.com/image_inference_output/talkie/prod/img/2026-05-11/b95f70b5-b587-4187-a565-3da1fa850c83_aigc.jpeg?Expires=1778599986&OSSAccessKeyId=LTAI5tB2SwrRwAtD23etQUbC&Signature=wM%2FiqG4F1APUGiHqqQs6volo0L0%3D" alt="头条配图">
+    <div class="hero-overlay">
+      <div class="hero-badge">今日头条</div>
+      <div class="hero-title">OpenAI出手就是200亿！英伟达最强挑战者来了，本周冲刺IPO</div>
+      <div class="hero-summary">Cerebras Systems获OpenAI 200亿美元芯片订单，本周以350亿美元估值冲刺IPO，成为AI芯片战争中最意外的参战者。</div>
+      <div class="hero-source">量子位 · 约2小时前</div>
+    </div>
+  </div>
+
+  <!-- Hot Events -->
+  <div class="section-label hot">🔥 热点追踪 · 多站报道</div>
+
+  <div class="news-card hot">
+    <div class="card-header">
+      <span class="hot-tag">🔥 热点</span>
+      <span class="source-tag">量子位</span>
+      <h3>阿里突然宣布！AI帮买淘宝背后，是千问和ChatGPT的全面战争</h3>
+    </div>
+    <p>千问与淘宝全面打通，用户与AI对话即可完成商品挑选、对比及下单购买，首次实现AI购物从推荐到下单、履约、售后的全流程闭环。</p>
+    <div class="meta"><a href="https://36kr.com/p/3804795647729411" target="_blank">阅读原文</a> · 约3小时前</div>
+    <div class="insight">
+      <div class="insight-label">💡 社群切入点</div>
+      <div class="insight-text">AI购物战役打响，淘宝、拼多多、抖音全面入局。ThinkingAI的「运营 Agent」可帮助企业实时监控各平台AI功能上线节奏，自动归因投放效果，让运营团队先人一步。</div>
+    </div>
+  </div>
+
+  <!-- Big Co News -->
+  <div class="section-label">🏢 大厂动态</div>
+
+  <div class="news-card">
+    <div class="card-header">
+      <span class="source-tag">量子位</span>
+      <h3>黄仁勋对毕业生说了什么？3小时演讲被疯转，AI时代的生存法则</h3>
+    </div>
+    <p>英伟达CEO黄仁勋在毕业典礼上发表3小时演讲，揭秘创业至暗时刻，并给出AI时代最具实操性的建议：学会让AI为你打工。</p>
+    <div class="meta"><a href="https://www.qbitai.com/2026/05/415403.html" target="_blank">阅读原文</a> · 约4小时前</div>
+  </div>
+
+  <div class="news-card">
+    <div class="card-header">
+      <span class="source-tag">TechCrunch</span>
+      <h3>Discord订阅就送Xbox Game Pass！微软这步棋，被很多人看懂了</h3>
+    </div>
+    <p>Discord推出Nitro Rewards计划，订阅用户可直接获得Xbox Game Pass基础版，无需额外付费，旨在打通游戏社交生态。</p>
+    <div class="meta"><a href="https://techcrunch.com/2026/05/11/discord-launches-nitro-rewards-giving-subscribers-access-to-the-base-tier-of-xbox-game-pass-for-no-extra-cost/" target="_blank">阅读原文</a> · 约5小时前</div>
+    <div class="insight">
+      <div class="insight-label">💡 社群切入点</div>
+      <div class="insight-text">Discord与微软深度绑定，订阅制商业模式的威力再次显现。ThinkingAI「数据分析 Agent」可帮助企业拆解订阅制核心指标：LTV、CAC、续费率，发现增长瓶颈所在。</div>
+    </div>
+  </div>
+
+  <!-- More News -->
+  <div class="section-label">📰 更多新闻</div>
+
+  <div class="news-card">
+    <div class="card-header">
+      <span class="source-tag">量子位</span>
+      <h3>数学家慌了！菲尔兹奖得主被AI逼到墙角：17分钟干完我一年活</h3>
+    </div>
+    <p>菲尔兹奖得主亲测ChatGPT 5.5 Pro，仅用17分钟即产出具有论文级别的数学推导，引发学界对AI取代纯数学研究的广泛讨论。</p>
+    <div class="meta"><a href="https://www.qbitai.com/2026/05/415403.html" target="_blank">阅读原文</a> · 约5小时前</div>
+  </div>
+
+  <div class="news-card">
+    <div class="card-header">
+      <span class="source-tag">36氪</span>
+      <h3>理想造车10年首次揭秘：三大王牌技术对标特斯拉，自研增程器量产</h3>
+    </div>
+    <p>理想汽车高级副总裁刘立国首次系统性讲述EMB线控机械制动、800V主动悬架、线控转向三大自研技术，目标是成为特斯拉之后第二个做到底盘域全栈自研的主机厂。</p>
+    <div class="meta"><a href="https://36kr.com/p/3804380633554696" target="_blank">阅读原文</a> · 约7小时前</div>
+    <div class="insight">
+      <div class="insight-label">💡 社群切入点</div>
+      <div class="insight-text">理想汽车技术路线全面对标特斯拉，数据驱动研发理念贯穿始终。ThinkingAI「A/B实验 Agent」可帮助车企快速验证不同版本车型的用户反馈，用数据而非直觉做产品决策。</div>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <div class="card-header">
+      <span class="source-tag">量子位</span>
+      <h3>硅谷爆火AI护城河理论：代码可以抄，产品可以抄，但有一样东西抢不走</h3>
+    </div>
+    <p>硅谷正在流行一种新论调：AI时代，数据和模型可以复制，但企业积累的workload和用户反馈闭环才是真正的护城河。</p>
+    <div class="meta"><a href="https://www.qbitai.com/2026/05/415842.html" target="_blank">阅读原文</a> · 约7小时前</div>
+  </div>
+
+  <div class="news-card">
+    <div class="card-header">
+      <span class="source-tag">量子位</span>
+      <h3>具身大模型迎来R1时刻？99.9%成功率背后的物理推理新突破</h3>
+    </div>
+    <p>LIBERO终结者模型在具身大模型任务中实现99.9%成功率，背后是一套全新的物理推理范式，被认为是具身智能的"R1时刻"。</p>
+    <div class="meta"><a href="https://www.qbitai.com/2026/05/415403.html" target="_blank">阅读原文</a> · 约9小时前</div>
+  </div>
+
+  <div class="news-card">
+    <div class="card-header">
+      <span class="source-tag">36氪</span>
+      <h3>三菱电机投了他近10亿！具身大模型赛道最大融资来了</h3>
+    </div>
+    <p>鹿明机器人宣布连续完成A1及A2两轮融资，A1轮三菱电机领投，A2轮恒生电子等跟投，累计融资近10亿元，将用于具身大模型研发。</p>
+    <div class="meta"><a href="https://36kr.com/p/3804380633554696" target="_blank">阅读原文</a> · 约10小时前</div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="divider"></div>
+    <p>由 AI 生成 · 仅供社群参考</p>
+    <p style="margin-top:6px">数据来源：量子位 · 36氪 · TechCrunch · 虎嗅</p>
+  </div>
+
+</div>
+</body>
+</html>
